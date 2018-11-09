@@ -13,4 +13,5 @@
 > php artisan migrate
 ###### может понадобиться установить права на запись для папок:
 > bootstrap/cache/
+
 > storage/framework/
