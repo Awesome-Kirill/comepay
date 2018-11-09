@@ -23,3 +23,23 @@
 > bootstrap/cache/
 
 > storage/framework/
+
+API
+
+Таблица сотрудник/Департамент geе('list'); 
+
+Получить список департаментов с кол-вом работников и макс.зарпалтой get('departments/list');
+
+Получить список сотрудников get('employee/list');
+
+Создать департамент post('departments/create');
+
+Изменить департамент post('departments/edit/{id}');
+
+Удалить департамент delete('departments/delete/{id}');
+
+Создать сотрудникоа post('employee/create');
+
+Редактировать сотрудника post('employee/edit/{id}');
+
+Удалить сотрудника delete('employee/delete/{id}');
