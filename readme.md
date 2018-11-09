@@ -26,20 +26,38 @@
 
 API
 
-Таблица сотрудник/Департамент geе('list'); 
+Таблица сотрудник/Департамент 
 
-Получить список департаментов с кол-вом работников и макс.зарпалтой get('departments/list');
+`get('list') `
 
-Получить список сотрудников get('employee/list');
+Получить список департаментов с кол-вом работников и макс.зарпалтой 
 
-Создать департамент post('departments/create');
+`get('departments/list')`
 
-Изменить департамент post('departments/edit/{id}');
+Получить список сотрудников 
 
-Удалить департамент delete('departments/delete/{id}');
+`get('employee/list')`
 
-Создать сотрудникоа post('employee/create');
+Создать департамент 
 
-Редактировать сотрудника post('employee/edit/{id}');
+`post('departments/create')`
 
-Удалить сотрудника delete('employee/delete/{id}');
+Изменить департамент 
+
+`post('departments/edit/{id}')`
+
+Удалить департамент 
+
+`delete('departments/delete/{id}')`
+
+Создать сотрудникоа 
+
+`post('employee/create')`
+
+Редактировать сотрудника 
+
+`post('employee/edit/{id}')`
+
+Удалить сотрудника 
+
+`delete('employee/delete/{id}')`
